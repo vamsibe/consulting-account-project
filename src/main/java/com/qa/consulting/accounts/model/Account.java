@@ -18,7 +18,15 @@ public class Account {
 		public Account() {
 			
 		}
-		
+				
+		public Account(Long id, String firstName) {
+			super();
+			this.id = id;
+			this.firstName = firstName;
+			
+		}
+
+
 		public Long getId() {
 			return id;
 		}
@@ -51,8 +59,4 @@ public class Account {
 			this.accountNumber = accountNumber;
 		}
 		
-		
-	    
-	    
-
 }

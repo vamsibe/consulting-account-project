@@ -4,10 +4,13 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.qa.consulting.accounts.model.Account;
 import com.qa.consulting.accounts.repository.AccountRepository;
 
+
+@Service
 public class AccountServiceImpl implements AccountService {
 	
 	@Autowired
